@@ -1,0 +1,501 @@
+payment_id,scenario,expected_status,expected_reason
+PAY100001,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100002,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100003,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100004,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100005,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100006,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100007,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100008,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100009,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100010,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100011,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100012,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100013,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100014,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100015,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100016,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100017,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100018,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100019,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100020,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100021,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100022,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100023,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100024,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100025,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100026,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100027,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100028,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100029,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100030,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100031,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100032,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100033,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100034,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100035,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100036,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100037,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100038,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100039,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100040,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100041,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100042,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100043,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100044,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100045,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100046,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100047,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100048,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100049,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100050,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100051,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100052,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100053,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100054,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100055,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100056,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100057,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100058,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100059,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100060,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100061,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100062,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100063,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100064,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100065,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100066,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100067,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100068,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100069,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100070,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100071,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100072,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100073,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100074,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100075,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100076,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100077,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100078,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100079,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100080,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100081,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100082,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100083,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100084,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100085,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100086,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100087,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100088,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100089,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100090,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100091,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100092,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100093,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100094,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100095,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100096,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100097,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100098,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100099,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100100,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100101,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100102,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100103,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100104,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100105,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100106,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100107,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100108,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100109,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100110,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100111,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100112,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100113,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100114,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100115,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100116,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100117,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100118,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100119,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100120,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100121,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100122,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100123,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100124,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100125,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100126,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100127,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100128,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100129,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100130,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100131,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100132,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100133,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100134,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100135,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100136,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100137,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100138,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100139,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100140,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100141,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100142,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100143,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100144,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100145,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100146,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100147,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100148,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100149,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100150,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100151,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100152,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100153,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100154,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100155,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100156,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100157,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100158,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100159,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100160,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100161,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100162,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100163,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100164,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100165,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100166,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100167,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100168,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100169,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100170,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100171,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100172,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100173,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100174,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100175,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100176,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100177,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100178,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100179,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100180,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100181,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100182,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100183,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100184,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100185,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100186,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100187,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100188,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100189,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100190,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100191,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100192,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100193,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100194,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100195,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100196,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100197,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100198,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100199,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100200,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100201,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100202,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100203,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100204,AMBIGUOUS_UNRESOLVED,UNRESOLVED,Insufficient evidence to uniquely resolve the transaction.
+PAY100205,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100206,AMBIGUOUS_UNRESOLVED,UNRESOLVED,Insufficient evidence to uniquely resolve the transaction.
+PAY100207,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100208,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100209,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100210,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100211,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100212,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100213,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100214,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100215,NOISY_REFERENCE,MATCH,Reference formatting differs but records should match after normalization.
+PAY100216,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100217,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100218,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100219,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100220,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100221,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100222,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100223,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100224,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100225,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100226,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100227,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100228,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100229,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100230,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100231,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100232,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100233,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100234,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100235,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100236,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100237,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100238,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100239,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100240,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100241,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100242,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100243,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100244,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100245,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100246,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100247,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100248,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100249,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100250,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100251,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100252,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100253,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100254,NOISY_REFERENCE,MATCH,Reference formatting differs but records should match after normalization.
+PAY100255,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100256,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100257,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100258,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100259,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100260,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100261,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100262,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100263,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100264,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100265,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100266,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100267,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100268,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100269,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100270,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100271,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100272,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100273,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100274,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100275,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100276,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100277,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100278,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100279,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100280,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100281,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100282,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100283,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100284,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100285,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100286,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100287,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100288,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100289,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100290,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100291,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100292,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100293,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100294,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100295,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100296,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100297,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100298,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100299,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100300,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100301,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100302,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100303,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100304,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100305,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100306,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100307,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100308,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100309,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100310,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100311,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100312,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100313,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100314,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100315,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100316,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100317,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100318,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100319,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100320,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100321,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100322,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100323,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100324,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100325,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100326,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100327,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100328,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100329,AMBIGUOUS_UNRESOLVED,UNRESOLVED,Insufficient evidence to uniquely resolve the transaction.
+PAY100330,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100331,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100332,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100333,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100334,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100335,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100336,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100337,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100338,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100339,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100340,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100341,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100342,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100343,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100344,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100345,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100346,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100347,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100348,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100349,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100350,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100351,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100352,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100353,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100354,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100355,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100356,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100357,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100358,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100359,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100360,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100361,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100362,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100363,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100364,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100365,NOISY_REFERENCE,MATCH,Reference formatting differs but records should match after normalization.
+PAY100366,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100367,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100368,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100369,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100370,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100371,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100372,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100373,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100374,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100375,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100376,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100377,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100378,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100379,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100380,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100381,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100382,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100383,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100384,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100385,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100386,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100387,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100388,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100389,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100390,AMBIGUOUS_UNRESOLVED,UNRESOLVED,Insufficient evidence to uniquely resolve the transaction.
+PAY100391,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100392,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100393,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100394,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100395,NOISY_REFERENCE,MATCH,Reference formatting differs but records should match after normalization.
+PAY100396,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100397,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100398,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100399,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100400,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100401,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100402,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100403,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100404,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100405,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100406,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100407,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100408,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100409,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100410,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100411,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100412,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100413,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100414,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100415,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100416,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100417,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100418,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100419,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100420,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100421,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100422,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100423,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100424,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100425,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100426,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100427,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100428,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100429,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100430,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100431,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100432,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100433,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100434,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100435,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100436,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100437,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100438,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100439,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100440,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100441,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100442,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100443,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100444,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100445,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100446,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100447,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100448,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100449,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100450,NOISY_REFERENCE,MATCH,Reference formatting differs but records should match after normalization.
+PAY100451,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100452,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100453,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100454,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100455,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100456,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100457,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100458,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100459,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100460,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100461,MISSING_BANK_CREDIT,EXCEPTION,Settlement exists but no bank credit exists.
+PAY100462,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100463,PARTIAL_SETTLEMENT,EXCEPTION,Settlement amount is materially lower than expected net amount.
+PAY100464,DUPLICATE,EXCEPTION,Duplicate payment record.
+PAY100465,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100466,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100467,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100468,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100469,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100470,AMOUNT_MISMATCH,EXCEPTION,Settlement amount differs from expected net without a valid adjustment.
+PAY100471,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100472,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100473,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100474,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100475,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100476,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100477,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100478,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100479,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100480,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100481,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100482,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100483,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100484,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100485,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
+PAY100486,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100487,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100488,SETTLEMENT_DELAY,EXCEPTION,Settlement occurred outside the configured settlement window.
+PAY100489,AMBIGUOUS_UNRESOLVED,UNRESOLVED,Insufficient evidence to uniquely resolve the transaction.
+PAY100490,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100491,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100492,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100493,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100494,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100495,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100496,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100497,MISSING_SETTLEMENT,EXCEPTION,No settlement record exists for successful payment.
+PAY100498,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100499,PERFECT_MATCH,MATCH,All sources reconcile within configured rules.
+PAY100500,FEE_TAX_DIFFERENCE,EXCEPTION,Settlement is lower than expected net after configured fee and tax.
